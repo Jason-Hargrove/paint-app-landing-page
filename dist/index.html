@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a58a5b7851.js" crossorigin="anonymous"></script>
+    <!-- Global fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap" rel="stylesheet">
+    <!-- CSS rules to specify families -->
+    <!-- font-family: 'Catamaran', sans-serif; -->
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Paint App - Becoming Bob Ross</title>
+</head>
+<body>
+    
+    <!-- May need to use differnt jquery version 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <!-- Initilaze jquery -->
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+    </script>
+</body>
+</html>
